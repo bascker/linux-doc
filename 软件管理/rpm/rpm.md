@@ -1,13 +1,10 @@
 # rpm
-## 简介
-
+## 一、简介
 * 用于软件包管理
 * **5** 种操作模式：安装、卸载、升级、查询和验证
 
-## 操作
-
+## 二、操作
 1.**安装**：_rpm -ivh_
-
 * **-i**：安装
 * **-v**：在安装过程中显示正在安装的文件信息
 * **-h**：显示安装进度
@@ -30,11 +27,11 @@
 $ rpm --import influxdb.key
 ```
 
-## 案例
-
+## 三、案例
 ```
 # 查找系统中的 docker rpm包
 $ rpm -qa | grep docker
+
 # 删除 rpm 包
 $ rpm -e docker-forward-journald-1.10.3-44.el7.centos.x86_64
 
